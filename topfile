@@ -1,2 +1,4 @@
-top| head -n 10 >>topoutput
+top -b -n1 |head -n 10 >> topoutput
+date >> topoutput
+uptime >> topoutput
  
