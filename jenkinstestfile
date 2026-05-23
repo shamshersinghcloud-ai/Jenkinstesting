@@ -1,4 +1,4 @@
-uptime >>jenkings
-cal >>jenkings
-date >>jenkings
-df -k >>jenkings
+uptime
+cal
+date
+df -k
