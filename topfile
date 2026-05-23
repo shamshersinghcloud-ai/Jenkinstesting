@@ -1,4 +1,4 @@
 top -b -n1 |head -n 10 >> topoutput
 date >> topoutput
 uptime >> topoutput
- 
+du -sm *| sort -nr| head -n 10 >> topoutput
